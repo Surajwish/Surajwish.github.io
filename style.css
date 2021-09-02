@@ -83,6 +83,7 @@
         margin: 10px;
     }
     .post-photo{
+		display:block;
         height:355px;
         width:400px;
         margin-left:auto;
