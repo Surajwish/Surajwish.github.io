@@ -1,0 +1,105 @@
+
+    header{
+        transform:translateY(-9px) ;
+        height:50px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        border-bottom: 1px solid  rgb(226, 214, 214);
+        padding:  0 10px;
+        position:fixed;
+        right: 0;
+        left: 0;
+    }
+    .logo{
+        height:50px;
+    }
+    footer{
+        height:30px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        border-top: 1px solid  rgb(226, 214, 214);
+        padding: 10px;
+        position:fixed;
+        bottom:0;
+        right:0;
+        left:0;
+        background-color: white;
+    }
+
+    .status-logo{
+        height: 50px;
+        width:50px;
+        padding:3px;
+        border-radius: 50%;
+        border:2px solid rgb(245, 117, 206);
+        margin: 10px;
+    }
+    #status-bar{
+        padding-top:45px;
+        height: 92px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x:auto;
+        font-size: 10px;
+        margin-left:5px;
+        border-bottom: 1px solid rgb(226, 214, 214);
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    #status-bar::-webkit-scrollbar {
+        display: none;
+    }
+    .status{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .post-header{
+        height: 60px;
+        display:flex;
+        flex-direction: row;
+        font-size: 12px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .post-options{
+        height: 40px;
+    }
+    .sender-info{
+        display:flex;
+        align-items: center;
+    }
+    .post-logo{
+        height: 30px;
+        width:30px;
+        padding:3px;
+        border-radius: 50%;
+        border:2px solid rgb(245, 117, 206);
+        margin: 10px;
+    }
+    .post-photo{
+        height:355px;
+        width:400px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .post-bottom{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .post-action{
+        height:32px
+    }
+    .postblock{
+        margin-bottom: 51px;
+    }
+    .post{
+        padding-bottom:  10px;
+        border-bottom: 1px solid rgb(226, 214, 214);
+    }
